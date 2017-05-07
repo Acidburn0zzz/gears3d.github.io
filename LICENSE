@@ -1,0 +1,13 @@
+Gears. Draw them. In 3D.
+
+Jordan Justen : gears3d is public domain
+
+=== External items ===
+
+external/gl-matrix-min.js:
+Website: http://glmatrix.net/
+License: MIT (see file header)
+
+external/webgl-utils.js:
+Website: https://www.khronos.org/registry/webgl/sdk/demos/common/webgl-utils.js
+License: 3-clause BSD (see file header)
