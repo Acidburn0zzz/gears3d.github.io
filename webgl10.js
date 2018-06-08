@@ -128,9 +128,6 @@ webgl10.init_program = function()
 
 webgl10.init_buffers = function(program)
 {
-    //var vao = gl.createVertexArray();
-    //gl.bindVertexArray(vao);
-
     var verts = [];
     var i;
     var total_vertex_count = 0;
@@ -190,7 +187,6 @@ webgl10.reshape = function(width, height)
     var projection = mat4.create();
     var h = height / width;
     mat4.frustum(projection, -1.0, 1.0, -h, h, 5.0, 200.0);
-    // gl.uniformMatrix4fv(program.model_loc, false, model);
     gl.uniformMatrix4fv(program.view_loc, false, view);
     gl.uniformMatrix4fv(program.projection_loc, false, projection);
 }
